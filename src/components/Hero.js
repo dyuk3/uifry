@@ -10,7 +10,7 @@ import { MdOutlinePlayCircle } from 'react-icons/md';
 
 const Hero = () => {
   return (
-    <div className='mt-24 flex items-center'>
+    <div className='my-24 flex items-center'>
       <div className='w-[618px] '>
         <p className='font-bold text-6xl'>Make The Best Financial Decisions</p>
         <p className='my-10 opacity-50 text-lg'>
@@ -18,10 +18,10 @@ const Hero = () => {
           Adipiscing Sociis Arcu Lorem Porttitor.
         </p>
         <div className='flex items-center gap-10 font-semibold'>
-          <button className='bg-black text-white p-3 px-10 rounded flex items-center gap-4'>
+          <button className='bg-black text-white p-3 px-10 rounded flex items-center gap-4 hover:scale-110'>
             Get Started <HiArrowLongRight size={30} />
           </button>
-          <button className='flex items-center gap-4'>
+          <button className='flex items-center gap-4 hover:scale-110'>
             <MdOutlinePlayCircle size={40} /> Watch Video
           </button>
         </div>
@@ -38,6 +38,7 @@ const Hero = () => {
         <Image src={phone2} className='absolute top-[160px] right-[80px] z-20' alt=' ' />
         <Image src={phone1} className='absolute top-[80px] right-[300px] z-30' alt=' ' />
         <Image src={star} className='absolute bottom-[220px] left-[420px] -rotate-45' alt='' />
+        <Image src={star} className='absolute  bottom-[122px] right-[581px] -rotate-180' alt='' />
       </div>
     </div>
   );
