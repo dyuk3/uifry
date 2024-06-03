@@ -3,6 +3,7 @@ import logo from '../assets/logo.png';
 import email from '../assets/mail.png';
 import phone from '../assets/phone.png';
 
+// Data to use in lists
 const links = ['Home', 'About Us', 'Bookings', 'Blog'];
 const legal = ['Terms of Use', 'Privacy Policy', 'Cookie Policy'];
 const products = ['Take Tour', 'Live Chat', 'Reviews'];

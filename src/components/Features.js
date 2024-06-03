@@ -1,12 +1,12 @@
 import star from '../assets/star-05.png';
-import icon from '../assets/icon.png';
+import icon from '../assets/Icon.png';
 import cube from '../assets/cube-02.png';
 import Image from 'next/image';
-import ellipse from '../assets/Ellipse_1.png';
 import ellipse2 from '../assets/ellipse_3.png';
 import star1 from '../assets/Star_1.png';
 import group from '../assets/group_12.png';
 
+//data
 const data = [
   {
     name: 'Budgeting Intervals',
