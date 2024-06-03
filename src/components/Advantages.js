@@ -4,7 +4,6 @@ import group3 from '../assets/group_3.png';
 import group4 from '../assets/group_4.png';
 import ellipse from '../assets/ellipse_4.png';
 import ellipse2 from '../assets/ellipse_3.png';
-
 import star from '../assets/Star_1.png';
 import plus from '../assets/plus.png';
 
